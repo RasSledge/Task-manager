@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Task Manager App</title>
+
+<meta name="viewport" content="width=divice-width , initial-scale=1.0">
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    
+</head>
+<body>
+
+<!--- Container --->
+        
+<div class="container">
+
+<!--- Header --->
+
+<div class="header">
+
+<h2>Task Manager</h2>
+
+<!--  <p><lord-icon src="https://cdn.lordicon.com/igpbsrza.json" trigger="morph" colors="primary:#fff" style="width:35px;height:35px"> </lord-icon></p>  -->
+    
+</div>
+
+<!--- Header end --->
+
+<!--- Middle sec --->
+
+<div class="midsec" id="middle">
+
+<!---<section>
+<p>Nothing to show</p>
+</section>--->
+    
+</div>
+
+<div class="btn">
+<button id="openbtn" onclick="cardshow()">ADD</button>
+</div>
+
+<!--- Middle sec end --->
+
+<!--- Card --->
+
+<div class="card" id="card">
+
+<h4>Add Task</h4>
+
+<input type="text" placeholder="Title.." id="title">
+
+<textarea placeholder="Description.." id="description"></textarea>
+
+<button id="addbtn" onclick="">ADD</button>
+
+<button id="closebtn" onclick="cardhide()">CLOSE</button>
+
+<br />
+
+<p>Designed by <a href="https://www.phoenixmedia.com.ng">Sledge</a></p><br />
+    
+</div>
+
+<!--- Card end --->
+    
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

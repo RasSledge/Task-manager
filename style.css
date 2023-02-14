@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', Monospace, sans-serif;
+    -webkit-tap-highlight-color:rgba(255, 255, 255, 0.3);
+}
+
+.container{
+    width:100vw;
+    max-width:100vw;
+    height:100vh;
+    max-height:100vh;
+    margin:auto;
+    left:0;
+    right:0;
+    position:relative;
+}
+
+.header{
+    width:100%;
+    height:auto;
+    background:#272626;
+    overflow:hidden ;
+    box-shadow:0 5px 15px rgba(255,255,255,0.3);
+    border-bottom:2px solid #fff;
+}
+
+.header h2{
+    float:left;
+    font-size:30px;
+    color:#fff;
+    padding:14px;
+}
+
+.header p{
+    float:right ;
+    font-size:30px;
+    padding:13px;
+}
+
+.container .card{
+    width:90%;
+    max-width:90vw;
+    height:auto;
+    border-radius:5px;
+    background-color:#FFFFFF;
+    box-shadow:0 5px 15px rgba(50,50,50,0.3);
+    transform:translate(-50%, -50%);
+    left:50%;
+    top:50%;
+    position:absolute;
+    text-align:center ;
+    display:none;
+}
+
+.container .card h4{
+    font-size:18px;
+    font-weight:500;
+    text-decoration:underline ;
+    margin:20px 0 10px 0;
+}
+
+.container .card input{
+    width:80%;
+    font-size:15px;
+    font-weight:500;
+    background-color:#fff;
+    border:1px solid grey;
+    outline-color:#272626;
+    padding:10px 15px;
+    margin:10px 0;
+}
+
+.container .card textarea{
+    width:80%;
+    height:120px;
+    font-size:15px;
+    font-weight:500;
+    background-color:#fff;
+    border:1px solid grey;
+    outline-color:#272626;
+    padding:10px 15px;
+    margin:10px 0;
+}
+
+.container .card button{
+    width:85%;
+    font-size:15px;
+    font-weight:700;
+    background-color:#272626;
+    color:#FFFFFF;
+    border:none;
+    border-radius:4px;
+    padding:10px 0;
+    margin:10px 0;
+}
+
+.container .card button:active{
+    background-color:#fff;
+    color:#272626;
+}
+
+#closebtn{
+    margin:10px 0 20px 0;
+}
+
+.container .card p{
+    font-size:10px;
+    font-weight:500;
+}
+
+.container .card p a{
+    text-decoration:none;
+    font-weight:700;
+}
+
+.midsec{
+    width:100%;
+    height:80vh;
+    overflow-x:hidden ;
+    overflow-y:scroll ;
+    background-color:#FFFFFF;
+}
+
+.btn {
+    width:100%;
+    height:auto;
+    background-color:#272626;
+    text-align:center ;
+    align-items:center ;
+    justify-content:center ;
+}
+
+.btn #openbtn{
+    width:60%;
+    padding:9px 0;
+    margin:10px 0;
+    border:2px solid #FFFFFF;
+    border-radius:4px;
+    background-color:#272626;
+    color:#FFFFFF;
+    font-size:20px ;
+    font-weight:600;
+}
+
+.btn #openbtn:active{
+    background-color: #FFFFFC;
+    color:#000000;
+}
+
+
+
+.cbox{
+    width:90%;
+    height:auto;
+    border-radius:10px;
+    padding:10px 0;
+    margin:auto;
+    left:0;
+    right:0;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#272626;
+    text-align:center ;
+    align-items:center ;
+    justify-content:center ;
+}
+
+.cbox .heading {
+    color: #FFFFFC;
+    font-size:20px;
+    font-weight:700;
+    width:90%;
+    margin:auto;
+    left:0;
+    right:0;
+    padding:8px 4px;
+    background-color:rgba(255, 255, 255, 0.1);
+    backdrop-filter:blur(1px);
+    margin-bottom:10px;
+    text-align:left;
+}
+
+.cbox .about{
+    color: gold;
+    font-size:15px;
+    font-weight:500;
+    width:90%;
+    margin:auto;
+    left:0;
+    right:0;
+    padding:8px 4px;
+    background-color:rgba(255, 255, 255, 0.1);
+    backdrop-filter:blur(1px);
+    text-align:left;
+}
+
+.ebtn, .dbtn{
+    width:100px;
+    font-size:16px;
+    font-weight:600;
+    color: #FFFFFF;
+    background-color:#272626;
+    border:2px solid #FFFFFF;
+    border-radius:4px;
+    padding:5px 0;
+    margin:10px;
+}
+
+.ebtn:active{
+    background-color:#FFFFFF;
+    color:#272626;
+}
+
+.dbtn:active{
+    background-color:#FFFFFF;
+    color:#272626;
+}
+
+
